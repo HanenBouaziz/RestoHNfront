@@ -1,0 +1,172 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;    /* Centre verticalement */
+    min-height: 100vh;      /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+}
+  
+.cardLogin {
+    width: 30%;      /* Permet de s'adapter au conteneur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+    border-radius: 10px; /* Optionnel : arrondi des coins */
+}
+.cardRegister {
+    width: 50%;      /* Permet de s'adapter au conteneur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+    border-radius: 10px; /* Optionnel : arrondi des coins */
+}
+.logo{
+    width: 50%;
+}
+.logoRegister{
+    width: 25%;
+}
+.logoNav{
+    width: 180px;
+}
+.center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.colorButton{
+    background-color: #aa4f1f;
+    border: #aa4f1f;
+}
+.colorButton:hover{
+    background-color: #aa501f85;
+}
+.colorButtonCancel{
+    background-color: #ffffff;
+    border:1px solid #aa4f1f;
+    color: #aa4f1f;
+}
+.colorButtonCancel:hover{
+    background-color: #aa501f32;
+    border:1px solid #aa4f1f;
+    color: #aa4f1f;
+}
+.textColor{
+    color: #aa4f1f;
+}
+.btn-outline{
+    background-color: #fafafa;
+    border:1px #aa4f1f solid;
+}
+.btn-outline:hover{
+    background-color: #aa501f32;
+    border:1px #aa4f1f solid;
+}
+.pr-3{
+    padding-right: 3%;
+}
+.pr-4{
+    padding-right: 4%;
+}
+.pl-3{
+    padding-left: 3%;
+}
+.pl-4{
+    padding-left: 4%;
+}
+.pl-5{
+    padding-left: 5%;
+}
+.btn-user{
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn-user:hover{
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* App.css ou votre fichier CSS spécifique */
+.custom-pagination .page-item.active .page-link {
+    background-color: #aa4f1f; /* La couleur de fond (bleu, similaire à votre bouton) */
+    border-color: #aa4f1f;
+    color: #fff; /* La couleur de la bordure */
+}
+
+.custom-pagination .page-link {
+    color: #fff; /* Couleur du texte de la page */
+    border: 1px solid #aa4f1f; 
+    color: #7e3914;/* La couleur de la bordure des éléments de la pagination */
+}
+
+.custom-pagination .page-link:hover {
+    background-color: #7e3914; /* Couleur de fond lorsque survolé */
+    color: #fff;/* Couleur du texte lors du survol */
+}
+.text-costum{
+    color: #aa4f1f;
+}
+.bg-costum{
+    background-color: #fff;
+}
+.fleche-btn {
+    position: fixed; /* Position fixe pour que le bouton reste en place lors du défilement */
+    bottom: 20px; /* Distance depuis le bas de l'écran */
+    right: 20px; /* Distance depuis le bord droit de l'écran */
+    background-color: #aa4f1f; /* Couleur de fond */
+    color: white; /* Couleur du texte ou de l'icône */
+    border: none; /* Supprime les bordures */
+    border-radius: 50%; /* Donne une forme circulaire */
+    width: 50px; /* Largeur du bouton */
+    height: 50px; /* Hauteur du bouton */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet d'élévation */
+    cursor: pointer; /* Curseur pointeur au survol */
+    display: flex; /* Flexbox pour centrer le contenu */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    z-index: 1000; /* Priorité d'affichage */
+    transition: transform 0.3s ease-in-out; /* Animation pour effet au survol */
+}
+
+.fleche-btn:hover {
+    transform: scale(1.1); /* Agrandit légèrement au survol */
+    background-color: #aa4f1f; /* Change la couleur de fond */
+}
+.btn-category {
+    background-color: transparent; /* Fond transparent par défaut */
+    border: none; /* Retire les bordures par défaut */
+    cursor: pointer; /* Curseur pointeur pour indiquer que c'est cliquable */
+    display: inline-block; /* Permet l'alignement des boutons */
+    padding: 10px; /* Ajoute de l'espace autour du contenu */
+    text-align: center; /* Centre le contenu */
+    border-radius: 8px; /* Arrondit les bords */
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.btn-category:hover {
+    transform: scale(1.05); /* Effet de zoom léger au survol */
+    background-color: rgba(255, 86, 34, 0); /* Couleur de fond subtile au survol */
+}
+
+.btn-category:active {
+    transform: scale(0.95); /* Réduction visuelle au clic */
+    background-color: rgba(255, 86, 34, 0); /* Accentuation de la couleur de fond au clic */
+}
+
+.btn-category img {
+    margin-bottom: 5px; /* Espace entre l'image et le texte */
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-category:hover img {
+    transform: scale(1.1); /* Zoom léger de l'image au survol */
+}
+
+.btn-category h6 {
+    font-size: 14px; /* Taille de texte ajustée */
+    color: #333; /* Couleur du texte */
+    margin: 0; /* Pas d'espace autour du texte */
+}
+
